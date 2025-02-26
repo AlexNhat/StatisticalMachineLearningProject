@@ -1,0 +1,29 @@
+---
+title: "Báo cáo thống kê hàng tháng"
+output: html_document
+date: '2024-05-25'
+---
+
+# Báo cáo thống kê hàng tháng
+
+## Tổng quan
+
+Báo cáo này cung cấp một tổng quan về thống kê hàng tháng về một số chỉ số quan trọng.
+
+## Dữ liệu hiện có
+
+```{r, results='asis'}
+# Dữ liệu hiện có
+data <- data.frame(
+  Month = c("Tháng 1", "Tháng 2", "Tháng 3"),
+  Sales = c(1000, 1200, 800)
+)
+
+
+```
+
+```{r, results='asis'}
+
+print(data)
+
+```
